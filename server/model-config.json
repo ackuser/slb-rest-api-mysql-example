@@ -31,5 +31,29 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Departments": {
+    "dataSource": "employees",
+    "public": true
+  },
+  "DeptEmp": {
+    "dataSource": "employees",
+    "public": true
+  },
+  "DeptManager": {
+    "dataSource": "employees",
+    "public": true
+  },
+  "Employees": {
+    "dataSource": "employees",
+    "public": true
+  },
+  "Salaries": {
+    "dataSource": "employees",
+    "public": true
+  },
+  "Titles": {
+    "dataSource": "employees",
+    "public": true
   }
 }
