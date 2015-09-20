@@ -1,22 +1,27 @@
 {
   "name": "slb-rest-api-mysql-example",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "jshint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/ackuser/slb-rest-api-mysql-example.git"
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "loopback": "^2.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-datasource-juggler": "^2.39.0",
+    "serve-favicon": "^2.0.1"
   },
-  "author": "",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/ackuser/slb-rest-api-mysql-example/issues"
+  "optionalDependencies": {
+    "loopback-explorer": "^1.1.0"
   },
   "devDependencies": {
-    "strongloop": "~5.0.0",
-    "loopback-connector-mysql": "~2.2.0"
-  }
+    "jshint": "^2.5.6"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "slb-rest-api-mysql-example"
 }
